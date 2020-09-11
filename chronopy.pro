@@ -1,4 +1,4 @@
-update=Thu Jan 16 12:55:07 2020
+update=Thu 10 Sep 2020 08:54:06 PM PDT
 version=1
 last_client=kicad
 [general]
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=schematic.pdf/
+PlotDirectoryName=outputs/schematic.pdf/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
