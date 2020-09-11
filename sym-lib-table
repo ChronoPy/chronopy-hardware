@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name badge-PCB)(type Legacy)(uri ${KIPRJMOD}/lib/badge-PCB.lib)(options "")(descr ""))
+  (lib (name ChronoPy-PCB)(type Legacy)(uri ${KIPRJMOD}/lib/ChronoPy-PCB.lib)(options "")(descr ""))
   (lib (name badge-rescue)(type Legacy)(uri ${KIPRJMOD}/badge-rescue.lib)(options "")(descr ""))
 )
