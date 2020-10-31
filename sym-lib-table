@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ChronoPy-PCB)(type Legacy)(uri ${KIPRJMOD}/lib/ChronoPy-PCB.lib)(options "")(descr ""))
+  (lib (name chronopy-rescue)(type Legacy)(uri ${KIPRJMOD}/chronopy-rescue.lib)(options "")(descr ""))
 )
