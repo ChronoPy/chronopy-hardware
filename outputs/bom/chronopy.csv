@@ -1,31 +1,39 @@
-Reference, Quantity, Value,Pacakge,Supplier PN
-C1 C2 ,2,18pF,Badge-PCB:C_0402,311-1415-1-ND
-C11 C12 ,2,10uF,Badge-PCB:C_0805_2012Metric,399-4925-1-ND
-C15 C3 C4 C5 C6 C7 ,6,10uF,Badge-PCB:C_0402,311-1729-1-ND
-C10 C13 C14 C16 C8 ,5,0.1uF,Badge-PCB:C_0402,1276-1004-1-ND
-C9 ,1,10nF,Badge-PCB:C_0402,311-1042-1-ND
-D1 ,1,D,Badge-PCB:D_SOD-323,497-3381-1-ND
-IC1 ,1,	MCP73832T-2ACI/MC,Badge-PCB:SON50P300X200X100-9N-D,MCP73832T-2ACI/MCCT-ND 
-IC2 ,1,S-1000C32-I4T1U,Badge-PCB:SNT-4A,1662-1013-1-ND
-J1 ,1,USB_B_Micro,Badge-PCB:USB_Micro-B_Molex-105017-0001,WM1399CT-ND
-J2 ,1,SM02B-SRSS-TB,Badge-PCB:SM02B-SRSS-TB,455-1802-1-ND
-J3 ,1,Conn_01x04_Shielded,Badge-PCB:JST_SM04B-SRSS-TB(LF)(SN),455-1804-1-ND
-MIC1 ,1,SPH0645LM4H-B,Badge-PCB:SPH0645LM4H-B,423-1405-1-ND
-Q1 Q2 ,2,AO3401A,Badge-PCB:SOT-23,785-1001-1-ND
-R17 ,1,22,Badge-PCB:R_0402,311-22.0LRCT-ND
-R20,1,1M,Badge-PCB:R_0402,311-1.00MLRCT-ND
-R14,1,806k,Badge-PCB:R_0402,YAG3238CT-ND
-R1 R18 R19 R4 ,4,10k,Badge-PCB:R_0402,311-10.0KLRCT-ND
-R10 R11 R12 R13 R15 R16 R2 R3 R5 R7 R8 R9 ,12,100k,Badge-PCB:R_0402,311-100KLRCT-ND
-R6 ,1,33,Badge-PCB:R_0402,311-33.0LRCT-ND
-SW1 SW2 SW3 SW4 ,4,SW_DIP_x01,Badge-PCB:SW_SPST_TL3305A,EG5353CT-ND
-TFT1 ,1,DISP_TFT_1.54IN_240X240_22P,Badge-PCB:0545482271,WM11288CT-ND
-TP1 TP10 TP11 TP2 TP3 TP4 TP5 TP6 TP7 TP8 TP9 ,11,TestPoint,Badge-PCB:Test_Point_Pad_d1.0mm,NA
-U1 ,1,W25Q32JVZPIQ,Badge-PCB:SON127P600X500X80-9N,W25Q32JVZPIQ-ND
-U2 ,1,AP2112K-3.3V,Badge-PCB:SOT-23-5,AP2112K-3.3TRG1DICT-ND
-U3 ,1,BMD-340-A-R,Badge-PCB:RIGADO_BMD-340-A-R,672-BMD-340-A-R-00CT-ND
-U5 ,1,LSM9DS1,Badge-PCB:PQFN24P43_350X300X102L35X23N,497-14946-1-ND
-U6 ,1,BME680,Badge-PCB:PSON80P300X300X100-8N,828-1077-1-ND
-U7 ,1,APDS-9960,Badge-PCB:APDS-9960,516-3480-1-ND
-Y1 ,1,32.768,Badge-PCB:Crystal_SMD_MicroCrystal_CM9V-T1A-2pin_1.6x1.0mm,2195-CM9V-T1A-32.768KHZ-12.5PF-20PPM-TA-QCCT-ND
-BAT,1,Battery,TinyCircuits ASR00007,1832-1032-ND
+Reference, Quantity, Value, Footprint, Datasheet, Field4, Field5, Field6, Field7, Field8, Description, Height, Manufacturer_Name, Manufacturer_Part_Number, Mouser Part Number, Mouser Price/Stock
+C1 C2 ,2,"18pF","ChronoPy-PCB:C_0402","~"
+C11 C12 ,2,"10uF","ChronoPy-PCB:C_0805_2012Metric","~"
+C18 ,1,"220nF","ChronoPy-PCB:C_0402","~"
+C19 ,1,"1uF","ChronoPy-PCB:C_0402","~"
+C15 C3 C4 C5 C6 C7 ,6,"10uF","ChronoPy-PCB:C_0402","~"
+C10 C13 C14 C16 C17 C8 ,6,"0.1uF","ChronoPy-PCB:C_0402","~"
+C9 ,1,"10nF","ChronoPy-PCB:C_0402","~"
+D1 D2 ,2,"D","ChronoPy-PCB:D_SOD-323","~"
+IC1 ,1,"MCP73831T-2ACI_MC","ChronoPy-PCB:SON50P300X200X100-9N-D","https://componentsearchengine.com/Datasheets/1/MCP73831T-2ACI_MC.pdf","","","","","","MICROCHIP - MCP73831T-2ACI/MC - BATTERY CHARGER, LI-ION/POL, 0.5A, DFN-8","1","Microchip","MCP73831T-2ACI/MC","579-MCP73831T-2ACIMC","https://www.mouser.com/Search/Refine.aspx?Keyword=579-MCP73831T-2ACIMC"
+IC2 ,1,"S-1000C32-I4T1U_S-1000C32-I4T1U","SNT-4A","http://datasheet.sii-ic.com/en/voltage_detector/S1000_E.pdf","","","","","","ULTRA-SMALL PACKAGE HIGH-PRECISION VOLTAGE DETECTOR","","SII Semiconductor","S-1000C32-I4T1U","628-S-1000C32-I4T1U","http://www.mouser.com/Search/ProductDetail.aspx?qs=h6RIvS%252bzmlf9OAVfz2pa8w%3d%3d"
+J1 ,1,"USB_B_Micro","ChronoPy-PCB:USB_Micro-B_Molex-105017-0001","~"
+J2 ,1,"SM02B-SRSS-TB","ChronoPy-PCB:SM02B-SRSS-TB","0.23 USD","JST","None","Good","SH Series 2 Position 1 mm Pitch Surface Mount Side Entry Shrouded Header","SM02B-SRSS-TB_LF__SN_","","","","","",""
+J3 ,1,"Conn_01x04_Shielded","ChronoPy-PCB:JST_SM04B-SRSS-TB(LF)(SN)","~"
+J4 ,1,"Conn_01x13_MountingPin","ChronoPy-PCB:Hirose_FH26W-13S-0.3SHW_2Rows-13Pins-1MP_P0.60mm","~"
+J5 ,1,"Conn_01x06_MountingPin","ChronoPy-PCB:Hirose_FH19C-6S-0.5SH_1x06-1MP_P0.50mm","~"
+J6 ,1,"Conn_02x05_Odd_Even","Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Horizontal","~"
+J7 ,1,"TC2030-CTX","ChronoPy-PCB:TC2030-IDC-NL",""
+M1 ,1,"Z43FC1B5640007L","ChronoPy-PCB:Z43FC1B5640007L","~"
+MK1 ,1,"IM69D120","Sensor_Audio:Infineon_PG-LLGA-5-1","https://www.infineon.com/dgdl/Infineon-IM69D120-DS-v01_00-EN.pdf?fileId=5546d462602a9dc801607a0e41a01a2b"
+Q1 Q2 Q3 ,3,"AO3401A","ChronoPy-PCB:SOT-23","http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+R14 ,1,"800k","ChronoPy-PCB:R_0402","~"
+R17 ,1,"22","ChronoPy-PCB:R_0402","~"
+R20 ,1,"2m","ChronoPy-PCB:R_0402","~"
+R21 R22 ,2,"1k","ChronoPy-PCB:R_0402","~"
+R23 ,1,"10m 1%","Resistor_SMD:R_0603_1608Metric","~"
+R1 R18 R19 R4 ,4,"10k","ChronoPy-PCB:R_0402","~"
+R10 R11 R12 R13 R15 R16 R2 R24 R3 R5 R7 R8 R9 ,13,"100k","ChronoPy-PCB:R_0402","~"
+R6 ,1,"33","ChronoPy-PCB:R_0402","~"
+SW1 SW2 SW3 SW4 ,4,"SW_DIP_x01","ChronoPy-PCB:SW_TL3340AF160QG","~"
+TP10 TP12 TP3 TP4 TP5 TP6 TP7 TP8 TP9 ,9,"TestPoint","ChronoPy-PCB:Test_Point_Pad_d1.0mm","~"
+U1 ,1,"W25Q32JVZPIQ","ChronoPy-PCB:SON127P600X500X80-9N","http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+U2 ,1,"AP2112K-3.3V","ChronoPy-PCB:SOT-23-5","http://www.ti.com/lit/ds/symlink/lp2985.pdf"
+U3 ,1,"BMD-340-A-R","ChronoPy-PCB:RIGADO_BMD-340-A-R","U-Blox America","Module Rigado","Bluetooth Low Energy 5.0 Module","None","BMD-340-A-R","Unavailable","","","","","",""
+U4 ,1,"STC3115IJT","ChronoPy-PCB:CSP-10",""
+U5 ,1,"LSM9DS1","ChronoPy-PCB:PQFN24P43_350X300X102L35X23N","STMicroelectronics","TFLGA-24 STMicroelectronics","iNEMO inertial module: 3D accelerometer, 3D gyroscope, 3D magnetometer","None","LSM9DS1","Unavailable","","","","","",""
+U6 ,1,"BME680","ChronoPy-PCB:PSON80P300X300X100-8N","Bosch Sensortec","LGA-8 Bosch Tools","Integrated Environmental Unit","None","BME680","Unavailable","","","","","",""
+U7 ,1,"APDS-9960","ChronoPy-PCB:APDS-9960",""
+Y1 ,1,"32.768","ChronoPy-PCB:Crystal_SMD_MicroCrystal_CM9V-T1A-2pin_1.6x1.0mm","https://www.mouser.com/datasheet/2/530/CM9V-T1A-1023054.pdf"
